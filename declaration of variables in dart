@@ -1,0 +1,42 @@
+void main(){
+
+//new Human(); // creating an  class object
+
+//Declaration of varialbe
+int a;
+
+//Assigning value
+a = 14; //initialization
+print(a);
+
+//over writing a value
+a = 15;
+print(a);
+
+//storing big value in int
+BigInt LongValue;
+LongValue = BigInt.parse('827139872398647682173891230917248612031029830127');
+print(LongValue);
+
+
+double percentage = 99.78719382;//num can also be used insted of double.
+// num can store both double and int value
+print(percentage);
+
+bool inlogin = false;
+//inLogin = true;
+print(inlogin);
+
+//inline declaration
+String name = 'mahad';
+print(name);
+
+//Changing or overwriting string
+name = 'Syed Mahad Raza';
+print(name);
+  }
+
+  /*class Human {
+
+  Human(); }
+  */
